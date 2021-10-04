@@ -39,6 +39,5 @@ public class Task1_2 {
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
         // [intArrayの2番目の要素と5番目の要素を和演算して出力している。]
         System.out.println(intArray[1] + intArray[4]);
-
     }
 }
