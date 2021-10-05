@@ -1,0 +1,41 @@
+/* 要件
+    【ウィンドウ幅が767pxまでの場合】
+    ・headerの横幅を250pxにする
+    ・rightの横幅を100pxにする
+    ・footerの横幅を250pxにする
+*/
+@media screen and (max-width: 767px){
+    /* style1でのhaderとfooterはwrapperに対してheight:100%;*/
+    .wrapper{
+        width: 250px;
+    }
+    .right{
+        width: 100px;
+    }
+}
+
+/* 要件 
+    【ウィンドウ幅が479pxまでの場合】
+    ・headerの横幅を150pxにする
+    ・rightの横幅を150pxにする
+    ・footerの横幅を150pxにする
+    ・要素の浮動化(float)の解除 
+*/
+@media screen and (max-width:479px) {
+    /* header・footerはwrapperに対し100% */
+    .wrapper{
+        width: 150px;
+    }
+    .left{
+        float: none;
+    }
+    .right{
+        float: none;
+        width: 100%;
+    }
+    /* mainは250px領域なので縦になる事によるright分の縦px追加 */
+    /* mainを500pxにしてleft・rightでheight50%でもよかった気がするけどこっちの方が簡潔だと思った */
+    .footer{
+        margin-top: 250px;
+    }
+}

@@ -1,0 +1,48 @@
+/* body{ 
+    min-height: 100%;
+    height: 100%;
+}*/
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/* 全体の幅・中央寄せ */
+.wrapper{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 100px;
+    background-color: #141f40;
+}
+/* main-start */
+.main{
+    height: 250px;
+}
+
+.left{
+    float: left;
+    background-color: #80bfa8;
+    width: 150px;
+    height: 100%;
+}
+.right{
+    float: right;
+    background-color: #8c2727;
+    width: 250px;
+    height: 100%;
+}
+/* main-end */
+
+.footer{
+    background-color: #d98d30;
+    height: 100px;
+}
+
+/* 空白埋め */
+*{
+    margin: 0;
+    padding: 0;
+}
