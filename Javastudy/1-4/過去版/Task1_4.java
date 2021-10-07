@@ -39,32 +39,25 @@ public class Task1_4 {
 
         // ② 「name」の値が「USER_NAME」と等しく、「 pass 」の値が「USER_PASSWORD」と等しい場合。
         //      定数を使用して「 ログイン成功です 」と出力してください。
-        if(name.equals(USER_NAME) && pass.equals(USER_PASSWORD)){
+        if(name.equals(USER_NAME) && pass.equals(USER_PASSWORD))
             System.out.println(CONST_MSG_SUCCESS);
 
         // ③ 「USER_RNAME」の値のみ等しい場合。
-        //     定数を使用して「 パスワードに誤りがあります。 」 と出力してください。
-        } else if(name.equals(USER_NAME) && !pass.equals(USER_PASSWORD)){
+       //     定数を使用して「 パスワードに誤りがあります。 」 と出力してください。
+       if(name.equals(USER_NAME) && !pass.equals(USER_PASSWORD))
             System.out.println(CONST_MSG_ERROR_PASS);
 
 
         // ④ 「USER_PASSWORD」の値のみ等しい場合。
        //定数を使用して「 名前に誤りがあります。 」と出力してください。
-        } else if (!name.equals(USER_NAME) && pass.equals(USER_PASSWORD)){
+       if(!name.equals(USER_NAME) && pass.equals(USER_PASSWORD))
             System.out.println(CONST_MSG_ERROR_NAME);
 
 
         // ⑤ 「USER_NAME」も「USER_PASSWORD」の値も間違っていた場合。 
        //定数を使用して「 入力情報に誤りがあります。 」と出力してください。
-        } else {
+       if(!name.equals(USER_NAME) && !pass.equals(USER_PASSWORD))
             System.out.println(CONST_MSG_ERROR_INPUT);
-        }
-        //修正版なのですが
-        //  if(){}          if(){
-        //  if(){}          }else if(){
-        //  if(){           }else if(){
-        //  }else(){}       }else{}
-        // どちらの方がいいのでしょうか
 
     }
 
