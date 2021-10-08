@@ -1,0 +1,101 @@
+.wrapper{
+    width: 400px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header{
+    background-color: #141f40;
+    height: 100px;
+    position: relative;
+}
+/* ヘッダーの箱領域 */
+.boxes1{
+    background-color: white;
+    height: 60px;
+    width: 160px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+/* 箱のサイズとカラー */
+.h_b{
+    background-color: #a9004b;
+    height: 40px;
+    width: 40px;
+}
+/* 箱の設置場所 */
+#h_b1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#h_b2{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+#h_b3{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.main{
+    height: 250px;
+}
+.left{
+    background-color: #80bfa8;
+    width: 150px;
+    height: 100%;
+    float: left;
+}
+
+.right{
+    background-color: #8c2727;
+    width: 250px;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+/* ヘッダーの箱と同じように作ったが
+    背景色が必要ではないので始点として作成
+    #r_bがabsoluteで設定できるように
+    無くても#r_bにleft+40px top40pxすればいいだけか（笑）
+    コメント書いてて気づきました */
+.boxes2{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.r_b{
+    background-color: #ff863f;
+    height: 40px;
+    width: 140px;
+    border: 5px solid white;
+}
+#r_b2{
+    position: absolute;
+    top: 60px;
+}
+#r_b3{
+    position: absolute;
+    top: 120px;
+}
+
+
+.footer{
+    background-color: #d98d30;
+    height: 100px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}

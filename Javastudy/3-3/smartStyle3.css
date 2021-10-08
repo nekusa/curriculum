@@ -1,0 +1,56 @@
+@media screen and (max-width:479px) {
+    .wrapper{
+        width: 200px;
+    }
+    .left{
+        height: 100px;
+        width: 200px;
+        float: none;
+    }
+    .right{
+        height: 210px;
+        width: 200px;
+        float: none;
+    }
+    .header{
+        height: 200px;
+    }
+    .boxes1{
+        height: 160px;
+        width: 60px;
+        position: absolute;
+        top: 20px;
+        left: 70px;
+    }
+    #h_b1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    #h_b2{
+        position: absolute;
+        top: 60px;
+        left: 10px;
+    }
+    #h_b3{
+        position: absolute;
+        top: 110px;
+        left: 10px;
+    }
+    .main{
+        height: 310px;
+    }
+    /* 課題の方では左から30px離れていて中央揃えに見えたので
+        オレンジの領域を小さくして中央揃えにしました */
+    .boxes2{
+        /* left30px→25px
+            この場合下のr_bのwidthを変更しなくて済む？*/
+        position: absolute;
+        left: 30px;
+        top: 20px;
+    }
+    .r_b{
+        /* width140px→130px */
+        width: 130px;
+    }
+}
