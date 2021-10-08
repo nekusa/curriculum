@@ -1,0 +1,59 @@
+/* ウィンドウ幅が最大767pxまでの場合 */
+@media screen and (max-width: 767px){
+    .wrapper{
+        /* header main footerのWidthはWrapper依存 */
+        width: 300px;
+    }
+    .left{
+        width: 100px;
+    }
+    .right{
+        width: 200px;
+    }
+
+    .r_t_l{
+        width:125px;
+    }
+    .r_t_r{
+        width: 75px;
+    }
+}
+
+/* ウィンドウ幅が最大479pxまでの場合 */
+@media screen and (max-width: 479px){
+    /* clearfix解除・諸々の高さは100pxと解釈・黄色だけ50px */
+
+    .wrapper{
+        width: 150px;
+    }
+    .main{
+        /* footerにmarginを足すか、
+            高さをleft + rightにするかで迷った */
+        height: 450px;
+    }
+    .left{
+        float: none;
+        width: 150px;
+        height: 100px;
+    }
+    .right{
+        float: none;
+        height: 350px;
+        width: 150px;
+    }
+    .right_top{
+        height: 250px;
+    }
+    .r_t_l{
+        float: none;
+
+        /* ウィンドウ幅が767px以上の時150pxなので変更しなくていいかと思ったら
+            479pxまでの推移時に、767以下を通るので125pxになるので設定が必要 */
+        width: 150px;
+    }
+    .r_t_r{
+        float: none;
+        width: 150px;
+        height: 100px;
+    }
+}
