@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family:serif;
+}
+/* ヘッダー*/
+.div_header{
+	background-color: gray;
+}
+#login{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+#date{
+	padding: 10px;
+	font-size: 10px;
+}
+
+/* メイン */
+.input{
+	/*　上下に50px左に20px*/
+	margin: 50px 0px 50px 20px;
+}
+/* テキストボックスと文字が狭く見えたので */
+.textbox{
+	margin-left: 10px;
+}
+
+/* フッター */
+.div_footer{
+	background-color: gray;
+}
+.div_footer label{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
