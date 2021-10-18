@@ -1,1 +1,242 @@
-executeDBAccess
+情報: Serverのバージョン名:     Apache Tomcat/9.0.53 [月 10月 18 15:57:18 JST 2021]
+情報: Server ビルド:            Sep 6 2021 19:09:00 UTC [月 10月 18 15:57:18 JST 2021]
+情報: サーバーのバージョン番号: 9.0.53.0 [月 10月 18 15:57:18 JST 2021]
+情報: OS 名:                    Windows 10 [月 10月 18 15:57:18 JST 2021]
+情報: OS バージョン:            10.0 [月 10月 18 15:57:18 JST 2021]
+情報: アーキテクチャ:           amd64 [月 10月 18 15:57:18 JST 2021]
+情報: Java Home:                C:\pleiades\java\11 [月 10月 18 15:57:18 JST 2021]
+情報: JVM バージョン:           11.0.12+7 [月 10月 18 15:57:18 JST 2021]
+情報: JVM ベンダ:               Eclipse Foundation [月 10月 18 15:57:18 JST 2021]
+情報: CATALINA_BASE:            C:\pleiades\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1 [月 10月 18 15:57:18 JST 2021]
+情報: CATALINA_HOME:            C:\pleiades\tomcat\9 [月 10月 18 15:57:18 JST 2021]
+情報: コマンドライン引数:       -Dcatalina.base=C:\pleiades\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1 [月 10月 18 15:57:18 JST 2021]
+情報: コマンドライン引数:       -Dcatalina.home=C:\pleiades\tomcat\9 [月 10月 18 15:57:18 JST 2021]
+情報: コマンドライン引数:       -Dwtp.deploy=C:\pleiades\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps [月 10月 18 15:57:18 JST 2021]
+情報: コマンドライン引数:       --add-opens=java.base/java.lang=ALL-UNNAMED [月 10月 18 15:57:18 JST 2021]
+情報: コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED [月 10月 18 15:57:18 JST 2021]
+情報: コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED [月 10月 18 15:57:18 JST 2021]
+情報: コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED [月 10月 18 15:57:18 JST 2021]
+情報: コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED [月 10月 18 15:57:18 JST 2021]
+情報: コマンドライン引数:       -Dfile.encoding=UTF-8 [月 10月 18 15:57:18 JST 2021]
+情報: 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [C:\pleiades\java\11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/pleiades/eclipse/jre/bin/server;C:/pleiades/eclipse/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\hipsys02\opencv\build\java\x64;C:\Users\hipsys02\Anaconda3;C:\Users\hipsys02\Anaconda3\Library\mingw-w64\bin;C:\Users\hipsys02\Anaconda3\Library\usr\bin;C:\Users\hipsys02\Anaconda3\Library\bin;C:\Users\hipsys02\Anaconda3\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\hipsys02\AppData\Local\Microsoft\WindowsApps;C:\Users\hipsys02\.dotnet\tools;C:\Users\hipsys02\AppData\Local\atom\bin;C:\Users\hipsys02\AppData\Local\Programs\Microsoft VS Code\bin;C:\maven\bin;C:\Users\hipsys02\AppData\Local\GitHubDesktop\bin;C:\pleiades\eclipse;;.] に存在しません。 [月 10月 18 15:57:18 JST 2021]
+情報: プロトコルハンドラ ["http-nio-8080"] を初期化します。 [月 10月 18 15:57:18 JST 2021]
+情報: サーバーの初期化 [445]ms [月 10月 18 15:57:18 JST 2021]
+情報: サービス [Catalina] を起動します [月 10月 18 15:57:18 JST 2021]
+情報: サーブレットエンジンの起動：[Apache Tomcat/9.0.53] [月 10月 18 15:57:18 JST 2021]
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。 [月 10月 18 15:57:18 JST 2021]
+情報: プロトコルハンドラー ["http-nio-8080"] を開始しました。 [月 10月 18 15:57:18 JST 2021]
+情報: サーバーの起動 [619]ms [月 10月 18 15:57:18 JST 2021]
+[MEMORY:40387640][2021/10/18 03:57:20.041] [org.apache.jsp.login_jsp] [_jspService] [167] セッションなし
+[MEMORY:40880488][2021/10/18 03:57:22.486] [skillcheck.controller.BaseServlet] [<init>] [56] START
+[MEMORY:40880488][2021/10/18 03:57:22.488] [skillcheck.controller.BaseServlet] [<init>] [60] END
+[MEMORY:40880488][2021/10/18 03:57:22.491] [skillcheck.controller.EmployeeManagementController] [doPost] [99] START
+[MEMORY:40880488][2021/10/18 03:57:22.492] [skillcheck.controller.EmployeeManagementController] [getRequestType] [195] START
+[MEMORY:40880488][2021/10/18 03:57:22.493] [skillcheck.controller.EmployeeManagementController] [getRequestType] [198] requestTypeName = login
+[MEMORY:40880488][2021/10/18 03:57:22.493] [skillcheck.controller.EmployeeManagementController] [getRequestType] [217] this.responseBean = skillcheck.bean.ResponseBean@777b334f
+[MEMORY:40880488][2021/10/18 03:57:22.493] [skillcheck.controller.EmployeeManagementController] [getRequestType] [227] END
+[MEMORY:40880488][2021/10/18 03:57:22.493] [skillcheck.controller.EmployeeManagementController] [doPost] [127] RequestType = LOGIN
+[MEMORY:40880488][2021/10/18 03:57:22.494] [skillcheck.service.BaseService] [<init>] [39] START
+[MEMORY:40880488][2021/10/18 03:57:22.494] [skillcheck.service.BaseService] [<init>] [46] END
+[MEMORY:40880488][2021/10/18 03:57:22.495] [skillcheck.controller.EmployeeManagementController] [lambda$1] [143] reqEmpId = 
+[MEMORY:40880488][2021/10/18 03:57:22.495] [skillcheck.controller.EmployeeManagementController] [doPost] [148] --- ログイン ---
+[MEMORY:40880488][2021/10/18 03:57:22.495] [skillcheck.controller.BaseServlet] [validateLogin] [137] START
+[MEMORY:40880488][2021/10/18 03:57:22.496] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [50] START
+[MEMORY:40880488][2021/10/18 03:57:22.496] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [67] START
+[MEMORY:40880488][2021/10/18 03:57:22.497] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [68] ExecuteCase = FIND_BY_EMPID
+[MEMORY:40880488][2021/10/18 03:57:22.497] [skillcheck.service.BaseService] [executeGetConnection] [53] START
+[MEMORY:46679104][2021/10/18 03:57:22.706] [skillcheck.service.BaseService] [executeGetConnection] [79] END
+[MEMORY:46679104][2021/10/18 03:57:22.706] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [162] START
+[MEMORY:46679104][2021/10/18 03:57:22.707] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [192] pEmployeeBeanList[0].empId = 
+[MEMORY:47214552][2021/10/18 03:57:22.734] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [217] SQL: SELECT empid,password, name,  mail, programinglanguage, comment FROM employee WHERE empId = '' AND deleteFlg = '0'
+[MEMORY:47214552][2021/10/18 03:57:22.734] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [237] END
+[MEMORY:47736896][2021/10/18 03:57:22.736] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [85] meta = org.postgresql.jdbc.PgResultSetMetaData@636475e0
+[MEMORY:47736896][2021/10/18 03:57:22.736] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [117] reqStatus  = 0
+[MEMORY:47736896][2021/10/18 03:57:22.736] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [118] reqMessage = 
+[MEMORY:47736896][2021/10/18 03:57:22.737] [skillcheck.service.BaseService] [executeCloseSQL] [117] START
+[MEMORY:47736896][2021/10/18 03:57:22.738] [skillcheck.service.BaseService] [executeCloseSQL] [128] END
+[MEMORY:47736896][2021/10/18 03:57:22.738] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [148] END
+[MEMORY:47736896][2021/10/18 03:57:22.738] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [54] END
+[MEMORY:47736896][2021/10/18 03:57:22.738] [skillcheck.controller.BaseServlet] [validateLogin] [189] isLoginError = true
+[MEMORY:47736896][2021/10/18 03:57:22.739] [skillcheck.controller.BaseServlet] [validateLogin] [191] END
+[MEMORY:47736896][2021/10/18 03:57:22.739] [skillcheck.controller.EmployeeManagementController] [doPost] [163] reqStatus  = 0
+[MEMORY:47736896][2021/10/18 03:57:22.739] [skillcheck.controller.EmployeeManagementController] [doPost] [164] reqMessage = 該当する社員情報がありません。
+[MEMORY:47736896][2021/10/18 03:57:22.739] [skillcheck.controller.EmployeeManagementController] [doPost] [171] 遷移先 = null
+[MEMORY:47736896][2021/10/18 03:57:22.739] [skillcheck.controller.EmployeeManagementController] [doPost] [184] END
+[MEMORY:48229744][2021/10/18 03:57:22.744] [org.apache.jsp.login_jsp] [_jspService] [173] セッションあり
+[MEMORY:48229744][2021/10/18 03:57:22.744] [org.apache.jsp.login_jsp] [_jspService] [194] message = 該当する社員情報がありません。
+[MEMORY:48281336][2021/10/18 03:57:26.736] [skillcheck.controller.EmployeeManagementController] [doPost] [99] START
+[MEMORY:48281336][2021/10/18 03:57:26.736] [skillcheck.controller.EmployeeManagementController] [getRequestType] [195] START
+[MEMORY:48281336][2021/10/18 03:57:26.736] [skillcheck.controller.EmployeeManagementController] [getRequestType] [198] requestTypeName = login
+[MEMORY:48281336][2021/10/18 03:57:26.736] [skillcheck.controller.EmployeeManagementController] [getRequestType] [217] this.responseBean = skillcheck.bean.ResponseBean@2e200e0b
+[MEMORY:48281336][2021/10/18 03:57:26.736] [skillcheck.controller.EmployeeManagementController] [getRequestType] [227] END
+[MEMORY:48281336][2021/10/18 03:57:26.736] [skillcheck.controller.EmployeeManagementController] [doPost] [127] RequestType = LOGIN
+[MEMORY:48281336][2021/10/18 03:57:26.736] [skillcheck.service.BaseService] [<init>] [39] START
+[MEMORY:48281336][2021/10/18 03:57:26.736] [skillcheck.service.BaseService] [<init>] [46] END
+[MEMORY:48776272][2021/10/18 03:57:26.736] [skillcheck.controller.EmployeeManagementController] [lambda$1] [143] reqEmpId = 12345
+[MEMORY:48776272][2021/10/18 03:57:26.738] [skillcheck.controller.EmployeeManagementController] [doPost] [148] --- ログイン ---
+[MEMORY:48776272][2021/10/18 03:57:26.738] [skillcheck.controller.BaseServlet] [validateLogin] [137] START
+[MEMORY:48776272][2021/10/18 03:57:26.738] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [50] START
+[MEMORY:48776272][2021/10/18 03:57:26.738] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [67] START
+[MEMORY:48776272][2021/10/18 03:57:26.738] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [68] ExecuteCase = FIND_BY_EMPID
+[MEMORY:48776272][2021/10/18 03:57:26.738] [skillcheck.service.BaseService] [executeGetConnection] [53] START
+[MEMORY:48776272][2021/10/18 03:57:26.765] [skillcheck.service.BaseService] [executeGetConnection] [79] END
+[MEMORY:48776272][2021/10/18 03:57:26.765] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [162] START
+[MEMORY:48776272][2021/10/18 03:57:26.765] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [192] pEmployeeBeanList[0].empId = 12345
+[MEMORY:48776272][2021/10/18 03:57:26.769] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [217] SQL: SELECT empid,password, name,  mail, programinglanguage, comment FROM employee WHERE empId = '12345' AND deleteFlg = '0'
+[MEMORY:48776272][2021/10/18 03:57:26.769] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [237] END
+[MEMORY:48776272][2021/10/18 03:57:26.769] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [85] meta = org.postgresql.jdbc.PgResultSetMetaData@20e7e5bf
+[MEMORY:48776272][2021/10/18 03:57:26.769] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [117] reqStatus  = 0
+[MEMORY:48776272][2021/10/18 03:57:26.769] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [118] reqMessage = 
+[MEMORY:48776272][2021/10/18 03:57:26.769] [skillcheck.service.BaseService] [executeCloseSQL] [117] START
+[MEMORY:48776272][2021/10/18 03:57:26.770] [skillcheck.service.BaseService] [executeCloseSQL] [128] END
+[MEMORY:48776272][2021/10/18 03:57:26.770] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [148] END
+[MEMORY:48776272][2021/10/18 03:57:26.770] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [54] END
+[MEMORY:48776272][2021/10/18 03:57:26.770] [skillcheck.controller.BaseServlet] [validateLogin] [189] isLoginError = true
+[MEMORY:48776272][2021/10/18 03:57:26.770] [skillcheck.controller.BaseServlet] [validateLogin] [191] END
+[MEMORY:48776272][2021/10/18 03:57:26.770] [skillcheck.controller.EmployeeManagementController] [doPost] [163] reqStatus  = 0
+[MEMORY:48776272][2021/10/18 03:57:26.770] [skillcheck.controller.EmployeeManagementController] [doPost] [164] reqMessage = 該当する社員情報がありません。
+[MEMORY:48776272][2021/10/18 03:57:26.770] [skillcheck.controller.EmployeeManagementController] [doPost] [171] 遷移先 = null
+[MEMORY:48776272][2021/10/18 03:57:26.770] [skillcheck.controller.EmployeeManagementController] [doPost] [184] END
+[MEMORY:49269120][2021/10/18 03:57:26.775] [org.apache.jsp.login_jsp] [_jspService] [173] セッションあり
+[MEMORY:49269120][2021/10/18 03:57:26.775] [org.apache.jsp.login_jsp] [_jspService] [194] message = 該当する社員情報がありません。
+[MEMORY:49329912][2021/10/18 03:57:30.083] [skillcheck.controller.EmployeeManagementController] [doPost] [99] START
+[MEMORY:49329912][2021/10/18 03:57:30.084] [skillcheck.controller.EmployeeManagementController] [getRequestType] [195] START
+[MEMORY:49329912][2021/10/18 03:57:30.084] [skillcheck.controller.EmployeeManagementController] [getRequestType] [198] requestTypeName = login
+[MEMORY:49329912][2021/10/18 03:57:30.084] [skillcheck.controller.EmployeeManagementController] [getRequestType] [217] this.responseBean = skillcheck.bean.ResponseBean@1f86cea
+[MEMORY:49329912][2021/10/18 03:57:30.084] [skillcheck.controller.EmployeeManagementController] [getRequestType] [227] END
+[MEMORY:49329912][2021/10/18 03:57:30.084] [skillcheck.controller.EmployeeManagementController] [doPost] [127] RequestType = LOGIN
+[MEMORY:49329912][2021/10/18 03:57:30.084] [skillcheck.service.BaseService] [<init>] [39] START
+[MEMORY:49329912][2021/10/18 03:57:30.084] [skillcheck.service.BaseService] [<init>] [46] END
+[MEMORY:49329912][2021/10/18 03:57:30.084] [skillcheck.controller.EmployeeManagementController] [lambda$1] [143] reqEmpId = 01096
+[MEMORY:49331960][2021/10/18 03:57:30.085] [skillcheck.controller.EmployeeManagementController] [doPost] [148] --- ログイン ---
+[MEMORY:49824872][2021/10/18 03:57:30.085] [skillcheck.controller.BaseServlet] [validateLogin] [137] START
+[MEMORY:49824872][2021/10/18 03:57:30.085] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [50] START
+[MEMORY:49824872][2021/10/18 03:57:30.085] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [67] START
+[MEMORY:49824872][2021/10/18 03:57:30.085] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [68] ExecuteCase = FIND_BY_EMPID
+[MEMORY:49824872][2021/10/18 03:57:30.085] [skillcheck.service.BaseService] [executeGetConnection] [53] START
+[MEMORY:49824872][2021/10/18 03:57:30.109] [skillcheck.service.BaseService] [executeGetConnection] [79] END
+[MEMORY:49824872][2021/10/18 03:57:30.109] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [162] START
+[MEMORY:49824872][2021/10/18 03:57:30.110] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [192] pEmployeeBeanList[0].empId = 01096
+[MEMORY:49824872][2021/10/18 03:57:30.115] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [217] SQL: SELECT empid,password, name,  mail, programinglanguage, comment FROM employee WHERE empId = '01096' AND deleteFlg = '0'
+[MEMORY:49824872][2021/10/18 03:57:30.115] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [237] END
+[MEMORY:49824872][2021/10/18 03:57:30.115] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [85] meta = org.postgresql.jdbc.PgResultSetMetaData@7431d7a1
+[MEMORY:49824872][2021/10/18 03:57:30.115] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [92] empid: 01096
+[MEMORY:49824872][2021/10/18 03:57:30.115] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [92] password: pass
+[MEMORY:50317744][2021/10/18 03:57:30.115] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [92] name: 末永大志
+[MEMORY:50317744][2021/10/18 03:57:30.115] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [92] mail: suenagataishi@gmail.com
+[MEMORY:50317744][2021/10/18 03:57:30.115] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [92] programinglanguage: Java
+[MEMORY:50317744][2021/10/18 03:57:30.116] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [117] reqStatus  = 0
+[MEMORY:50317744][2021/10/18 03:57:30.116] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [118] reqMessage = 
+[MEMORY:50317744][2021/10/18 03:57:30.116] [skillcheck.service.BaseService] [executeCloseSQL] [117] START
+[MEMORY:50317744][2021/10/18 03:57:30.116] [skillcheck.service.BaseService] [executeCloseSQL] [128] END
+[MEMORY:50317744][2021/10/18 03:57:30.116] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [148] END
+[MEMORY:50317744][2021/10/18 03:57:30.116] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [54] END
+[MEMORY:50873408][2021/10/18 03:57:30.122] [skillcheck.util.PasswordHashUtil] [getSafetyPassword] [63] HASHED: d880e06b69a9007a294e5ac9dbd124aed95bf7046734fb07336b2fa260da3862
+[MEMORY:51366280][2021/10/18 03:57:30.125] [skillcheck.util.PasswordHashUtil] [getSafetyPassword] [63] HASHED: 4f25617aed4bff01184f43bfba7c795530e76b0c19bd5f7696670897f1a50cdd
+[MEMORY:51366280][2021/10/18 03:57:30.125] [skillcheck.controller.BaseServlet] [validateLogin] [189] isLoginError = true
+[MEMORY:51366280][2021/10/18 03:57:30.125] [skillcheck.controller.BaseServlet] [validateLogin] [191] END
+[MEMORY:51366280][2021/10/18 03:57:30.126] [skillcheck.controller.EmployeeManagementController] [doPost] [163] reqStatus  = 0
+[MEMORY:51366280][2021/10/18 03:57:30.126] [skillcheck.controller.EmployeeManagementController] [doPost] [164] reqMessage = パスワードに誤りがあります。
+[MEMORY:51366280][2021/10/18 03:57:30.126] [skillcheck.controller.EmployeeManagementController] [doPost] [171] 遷移先 = null
+[MEMORY:51366280][2021/10/18 03:57:30.126] [skillcheck.controller.EmployeeManagementController] [doPost] [184] END
+[MEMORY:51427064][2021/10/18 03:57:30.129] [org.apache.jsp.login_jsp] [_jspService] [173] セッションあり
+[MEMORY:51427064][2021/10/18 03:57:30.129] [org.apache.jsp.login_jsp] [_jspService] [194] message = パスワードに誤りがあります。
+[MEMORY:51921960][2021/10/18 03:57:34.197] [skillcheck.controller.EmployeeManagementController] [doPost] [99] START
+[MEMORY:51921960][2021/10/18 03:57:34.198] [skillcheck.controller.EmployeeManagementController] [getRequestType] [195] START
+[MEMORY:51921960][2021/10/18 03:57:34.198] [skillcheck.controller.EmployeeManagementController] [getRequestType] [198] requestTypeName = login
+[MEMORY:51921960][2021/10/18 03:57:34.198] [skillcheck.controller.EmployeeManagementController] [getRequestType] [217] this.responseBean = skillcheck.bean.ResponseBean@1c79ee5d
+[MEMORY:51921960][2021/10/18 03:57:34.198] [skillcheck.controller.EmployeeManagementController] [getRequestType] [227] END
+[MEMORY:51921960][2021/10/18 03:57:34.198] [skillcheck.controller.EmployeeManagementController] [doPost] [127] RequestType = LOGIN
+[MEMORY:51921960][2021/10/18 03:57:34.198] [skillcheck.service.BaseService] [<init>] [39] START
+[MEMORY:51921960][2021/10/18 03:57:34.198] [skillcheck.service.BaseService] [<init>] [46] END
+[MEMORY:51921960][2021/10/18 03:57:34.198] [skillcheck.controller.EmployeeManagementController] [lambda$1] [143] reqEmpId = 01096
+[MEMORY:51921960][2021/10/18 03:57:34.199] [skillcheck.controller.EmployeeManagementController] [doPost] [148] --- ログイン ---
+[MEMORY:51921960][2021/10/18 03:57:34.199] [skillcheck.controller.BaseServlet] [validateLogin] [137] START
+[MEMORY:51921960][2021/10/18 03:57:34.199] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [50] START
+[MEMORY:51921960][2021/10/18 03:57:34.199] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [67] START
+[MEMORY:51921960][2021/10/18 03:57:34.199] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [68] ExecuteCase = FIND_BY_EMPID
+[MEMORY:51921960][2021/10/18 03:57:34.199] [skillcheck.service.BaseService] [executeGetConnection] [53] START
+[MEMORY:51921960][2021/10/18 03:57:34.223] [skillcheck.service.BaseService] [executeGetConnection] [79] END
+[MEMORY:51921960][2021/10/18 03:57:34.223] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [162] START
+[MEMORY:51921960][2021/10/18 03:57:34.223] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [192] pEmployeeBeanList[0].empId = 01096
+[MEMORY:51921960][2021/10/18 03:57:34.227] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [217] SQL: SELECT empid,password, name,  mail, programinglanguage, comment FROM employee WHERE empId = '01096' AND deleteFlg = '0'
+[MEMORY:51921960][2021/10/18 03:57:34.227] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [237] END
+[MEMORY:51921960][2021/10/18 03:57:34.227] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [85] meta = org.postgresql.jdbc.PgResultSetMetaData@12be13a2
+[MEMORY:51921960][2021/10/18 03:57:34.228] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [92] empid: 01096
+[MEMORY:51921960][2021/10/18 03:57:34.228] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [92] password: pass
+[MEMORY:51921960][2021/10/18 03:57:34.228] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [92] name: 末永大志
+[MEMORY:51921960][2021/10/18 03:57:34.228] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [92] mail: suenagataishi@gmail.com
+[MEMORY:51921960][2021/10/18 03:57:34.228] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [92] programinglanguage: Java
+[MEMORY:51921960][2021/10/18 03:57:34.228] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [117] reqStatus  = 0
+[MEMORY:51921960][2021/10/18 03:57:34.228] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [118] reqMessage = 
+[MEMORY:51921960][2021/10/18 03:57:34.228] [skillcheck.service.BaseService] [executeCloseSQL] [117] START
+[MEMORY:51921960][2021/10/18 03:57:34.228] [skillcheck.service.BaseService] [executeCloseSQL] [128] END
+[MEMORY:52414808][2021/10/18 03:57:34.228] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [148] END
+[MEMORY:52414808][2021/10/18 03:57:34.228] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [54] END
+[MEMORY:52475640][2021/10/18 03:57:34.233] [skillcheck.util.PasswordHashUtil] [getSafetyPassword] [63] HASHED: 36bbca705bb218e2e3307de47895b1f864fb962153806b54bef959760036c5d2
+[MEMORY:52970560][2021/10/18 03:57:34.236] [skillcheck.util.PasswordHashUtil] [getSafetyPassword] [63] HASHED: 4f25617aed4bff01184f43bfba7c795530e76b0c19bd5f7696670897f1a50cdd
+[MEMORY:53463456][2021/10/18 03:57:34.236] [skillcheck.controller.BaseServlet] [validateLogin] [189] isLoginError = true
+[MEMORY:53463456][2021/10/18 03:57:34.236] [skillcheck.controller.BaseServlet] [validateLogin] [191] END
+[MEMORY:53463456][2021/10/18 03:57:34.237] [skillcheck.controller.EmployeeManagementController] [doPost] [163] reqStatus  = 0
+[MEMORY:53463456][2021/10/18 03:57:34.237] [skillcheck.controller.EmployeeManagementController] [doPost] [164] reqMessage = パスワードに誤りがあります。
+[MEMORY:53463456][2021/10/18 03:57:34.237] [skillcheck.controller.EmployeeManagementController] [doPost] [171] 遷移先 = null
+[MEMORY:53463456][2021/10/18 03:57:34.237] [skillcheck.controller.EmployeeManagementController] [doPost] [184] END
+[MEMORY:53524216][2021/10/18 03:57:34.241] [org.apache.jsp.login_jsp] [_jspService] [173] セッションあり
+[MEMORY:53524216][2021/10/18 03:57:34.241] [org.apache.jsp.login_jsp] [_jspService] [194] message = パスワードに誤りがあります。
+[MEMORY:53524216][2021/10/18 03:57:40.021] [skillcheck.controller.EmployeeManagementController] [doPost] [99] START
+[MEMORY:53524216][2021/10/18 03:57:40.021] [skillcheck.controller.EmployeeManagementController] [getRequestType] [195] START
+[MEMORY:53524216][2021/10/18 03:57:40.021] [skillcheck.controller.EmployeeManagementController] [getRequestType] [198] requestTypeName = login
+[MEMORY:53524216][2021/10/18 03:57:40.022] [skillcheck.controller.EmployeeManagementController] [getRequestType] [217] this.responseBean = skillcheck.bean.ResponseBean@1c530ca9
+[MEMORY:53524216][2021/10/18 03:57:40.022] [skillcheck.controller.EmployeeManagementController] [getRequestType] [227] END
+[MEMORY:53524216][2021/10/18 03:57:40.022] [skillcheck.controller.EmployeeManagementController] [doPost] [127] RequestType = LOGIN
+[MEMORY:53524216][2021/10/18 03:57:40.022] [skillcheck.service.BaseService] [<init>] [39] START
+[MEMORY:53524216][2021/10/18 03:57:40.022] [skillcheck.service.BaseService] [<init>] [46] END
+[MEMORY:53524216][2021/10/18 03:57:40.022] [skillcheck.controller.EmployeeManagementController] [lambda$1] [143] reqEmpId = 01096
+[MEMORY:53524216][2021/10/18 03:57:40.022] [skillcheck.controller.EmployeeManagementController] [doPost] [148] --- ログイン ---
+[MEMORY:53524216][2021/10/18 03:57:40.022] [skillcheck.controller.BaseServlet] [validateLogin] [137] START
+[MEMORY:53524216][2021/10/18 03:57:40.022] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [50] START
+[MEMORY:53524216][2021/10/18 03:57:40.022] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [67] START
+[MEMORY:53524216][2021/10/18 03:57:40.022] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [68] ExecuteCase = FIND_BY_EMPID
+[MEMORY:53524216][2021/10/18 03:57:40.022] [skillcheck.service.BaseService] [executeGetConnection] [53] START
+[MEMORY:54019136][2021/10/18 03:57:40.048] [skillcheck.service.BaseService] [executeGetConnection] [79] END
+[MEMORY:54019136][2021/10/18 03:57:40.048] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [162] START
+[MEMORY:54019136][2021/10/18 03:57:40.048] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [192] pEmployeeBeanList[0].empId = 01096
+[MEMORY:54019136][2021/10/18 03:57:40.051] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [217] SQL: SELECT empid,password, name,  mail, programinglanguage, comment FROM employee WHERE empId = '01096' AND deleteFlg = '0'
+[MEMORY:54019136][2021/10/18 03:57:40.051] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [237] END
+[MEMORY:54019136][2021/10/18 03:57:40.051] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [85] meta = org.postgresql.jdbc.PgResultSetMetaData@316acc84
+[MEMORY:54019136][2021/10/18 03:57:40.051] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [92] empid: 01096
+[MEMORY:54019136][2021/10/18 03:57:40.051] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [92] password: pass
+[MEMORY:54019136][2021/10/18 03:57:40.051] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [92] name: 末永大志
+[MEMORY:54019136][2021/10/18 03:57:40.051] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [92] mail: suenagataishi@gmail.com
+[MEMORY:54019136][2021/10/18 03:57:40.051] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [92] programinglanguage: Java
+[MEMORY:54019136][2021/10/18 03:57:40.051] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [117] reqStatus  = 0
+[MEMORY:54019136][2021/10/18 03:57:40.051] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [118] reqMessage = 
+[MEMORY:54019136][2021/10/18 03:57:40.051] [skillcheck.service.BaseService] [executeCloseSQL] [117] START
+[MEMORY:54019136][2021/10/18 03:57:40.051] [skillcheck.service.BaseService] [executeCloseSQL] [128] END
+[MEMORY:54019136][2021/10/18 03:57:40.051] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [148] END
+[MEMORY:54019136][2021/10/18 03:57:40.051] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [54] END
+[MEMORY:54512008][2021/10/18 03:57:40.056] [skillcheck.util.PasswordHashUtil] [getSafetyPassword] [63] HASHED: 4f25617aed4bff01184f43bfba7c795530e76b0c19bd5f7696670897f1a50cdd
+[MEMORY:55067712][2021/10/18 03:57:40.060] [skillcheck.util.PasswordHashUtil] [getSafetyPassword] [63] HASHED: 4f25617aed4bff01184f43bfba7c795530e76b0c19bd5f7696670897f1a50cdd
+[MEMORY:55067712][2021/10/18 03:57:40.060] [skillcheck.controller.BaseServlet] [validateLogin] [189] isLoginError = false
+[MEMORY:55067712][2021/10/18 03:57:40.060] [skillcheck.controller.BaseServlet] [validateLogin] [191] END
+[MEMORY:55067712][2021/10/18 03:57:40.060] [skillcheck.controller.EmployeeManagementController] [doPost] [163] reqStatus  = 0
+[MEMORY:55067712][2021/10/18 03:57:40.060] [skillcheck.controller.EmployeeManagementController] [doPost] [164] reqMessage = ログインに成功しました。
+[MEMORY:55067712][2021/10/18 03:57:40.060] [skillcheck.controller.EmployeeManagementController] [doPost] [171] 遷移先 = /employeeResult.jsp
+[MEMORY:55574720][2021/10/18 03:57:40.069] [org.apache.jsp.employeeResult_jsp] [_jspService] [147] セッションあり: loginEmpId = 01096
+[MEMORY:55574720][2021/10/18 03:57:40.069] [skillcheck.controller.EmployeeManagementController] [doPost] [184] END
+[MEMORY:55574720][2021/10/18 03:57:41.820] [skillcheck.controller.EmployeeManagementController] [doGet] [40] START
+[MEMORY:55574720][2021/10/18 03:57:41.820] [skillcheck.controller.BaseServlet] [validateSession] [73] START
+[MEMORY:55574720][2021/10/18 03:57:41.820] [skillcheck.controller.BaseServlet] [validateSession] [84] セッションあり
+[MEMORY:55574720][2021/10/18 03:57:41.820] [skillcheck.controller.BaseServlet] [validateSession] [105] END
+[MEMORY:55574720][2021/10/18 03:57:41.820] [skillcheck.controller.EmployeeManagementController] [doGet] [53] hasSession = true
+[MEMORY:55574720][2021/10/18 03:57:41.820] [skillcheck.controller.EmployeeManagementController] [getRequestType] [195] START
+[MEMORY:55574720][2021/10/18 03:57:41.821] [skillcheck.controller.EmployeeManagementController] [getRequestType] [198] requestTypeName = logout
+[MEMORY:55574720][2021/10/18 03:57:41.821] [skillcheck.controller.EmployeeManagementController] [getRequestType] [217] this.responseBean = skillcheck.bean.ResponseBean@5b6fa6e6
+[MEMORY:55574720][2021/10/18 03:57:41.821] [skillcheck.controller.EmployeeManagementController] [getRequestType] [227] END
+[MEMORY:55574720][2021/10/18 03:57:41.821] [skillcheck.controller.EmployeeManagementController] [doGet] [57] RequestType = LOGOUT
+[MEMORY:55574720][2021/10/18 03:57:41.822] [skillcheck.controller.EmployeeManagementController] [doGet] [80] reqStatus  = 0
+[MEMORY:55574720][2021/10/18 03:57:41.823] [skillcheck.controller.EmployeeManagementController] [doGet] [81] reqMessage = null
+[MEMORY:55574720][2021/10/18 03:57:41.823] [skillcheck.controller.EmployeeManagementController] [doGet] [85] 遷移先 = /employeeResult.jsp
+[MEMORY:55574720][2021/10/18 03:57:41.823] [skillcheck.controller.EmployeeManagementController] [doGet] [94] END
+[MEMORY:55574720][2021/10/18 03:57:41.828] [org.apache.jsp.login_jsp] [_jspService] [173] セッションあり
+[MEMORY:55621368][2021/10/18 03:57:41.828] [org.apache.jsp.login_jsp] [_jspService] [194] message = 
