@@ -18,11 +18,18 @@
         //getElementById('text1').textContentは<>要素の中身</>を取得
         //inputのvalueを取得したい場合は.value
         let str = document.getElementById('text1').value;
-        console.log(str);
         //②出力欄のテキストエリアを取得
         let text_area = document.querySelector('#area1');
+
+        //修正点1-テキストエリアの中身は追加後に改行
         //③出力欄に入力された文字列を足していく
-        text_area.value += str; 
+        if(str != ""){
+            text_area.value += str + "\n";
+        }
+
+        //修正点2-追加したらテキストボックスの中身は空
+        //追加後入力欄のテキストを空にする
+        document.querySelector('#text1').value = null;
     }
 
     function deleteText() {
